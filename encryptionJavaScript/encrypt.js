@@ -1,5 +1,5 @@
 
-const file = "C:\\Users\\chris.vuong\\Documents\\Resly Resume- Indeed.pdf";
+const file = ""; // put the file url here
 const toFile = "./data.en";
 const fs = require("fs");
 var data = fs.readFileSync(file);
